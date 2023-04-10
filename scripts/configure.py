@@ -6,7 +6,7 @@ import rvscaffold as scaffold
 class Project(scaffold.Java):
     def script_path_text(self): return __file__
     def repository_name(self): return 'hookless-noexception'
-    def pretty_name(self): return 'Hookless adapter for NoException'
+    def pretty_name(self): return 'Reactive NoException'
     def pom_description(self): return 'Hookless reactive adapter for NoException library.'
     def inception_year(self): return 2015
     def jdk_version(self): return 17
