@@ -8,9 +8,6 @@ import com.machinezoo.stagean.*;
 /**
  * Wrappers for {@link ExceptionHandler} and {@link ExceptionFilter}.
  */
-@StubDocs
-@NoTests
-@DraftApi
 @ApiIssue("if this is used often, we might consider neater API, e.g. .silence().blocking().run(...)")
 public class ReactiveExceptions {
 	/*
