@@ -5,7 +5,7 @@
 
 	<groupId>com.machinezoo.hookless</groupId>
 	<artifactId>hookless-noexception</artifactId>
-	<version>0.0.1</version>
+	<version>0.1.0</version>
 
 	<name>Hookless adapter for NoException</name>
 	<description>Hookless reactive adapter for NoException library.</description>
