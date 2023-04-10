@@ -5,14 +5,14 @@ import rvscaffold as scaffold
 
 class Project(scaffold.Java):
     def script_path_text(self): return __file__
-    def repository_name(self): return 'hookless'
-    def is_member_project(self): return True
-    def pretty_name(self): return 'Hookless'
-    def pom_description(self): return 'Reactive programming library.'
+    def repository_name(self): return 'hookless-noexception'
+    def pretty_name(self): return 'Hookless adapter for NoException'
+    def pom_description(self): return 'Hookless reactive adapter for NoException library.'
     def inception_year(self): return 2015
     def jdk_version(self): return 17
     def stagean_annotations(self): return True
     def complete_javadoc(self): return False
+    def has_website(self): return False
     
     def dependencies(self):
         yield from super().dependencies()
@@ -31,11 +31,5 @@ class Project(scaffold.Java):
     def javadoc_links(self):
         yield from super().javadoc_links()
         yield 'https://noexception.machinezoo.com/javadocs/core/'
-        # No link to OpenTracing, because automatic modules cannot be linked.
-    
-    def documentation_links(self):
-        yield from super().documentation_links()
-        yield 'Concepts', 'https://hookless.machinezoo.com/concepts'
-        yield 'Adapters', 'https://hookless.machinezoo.com/adapters'
 
 Project().generate()
