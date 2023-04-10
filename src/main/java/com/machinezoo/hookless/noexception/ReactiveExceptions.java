@@ -10,7 +10,8 @@ import com.machinezoo.stagean.*;
  */
 @StubDocs
 @NoTests
-@DraftApi("if this is used often, we might consider neater API, e.g. .silence().blocking().run(...)")
+@DraftApi
+@ApiIssue("if this is used often, we might consider neater API, e.g. .silence().blocking().run(...)")
 public class ReactiveExceptions {
 	/*
 	 * We aren't using the more concise anonymous inner classes, because we want nice class names in stack traces.
