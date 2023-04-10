@@ -1,7 +1,7 @@
 // Part of Hookless: https://hookless.machinezoo.com
 /**
  * Reactive extensions for <a href="https://noexception.machinezoo.com/">NoException</a>.
- * See {@link ReactiveExceptions}.
+ * See {@link com.machinezoo.hookless.noexception.ReactiveExceptions}.
  * 
  * @see <a href="https://hookless.machinezoo.com/">Hookless website</a>
  */
