@@ -3,7 +3,7 @@
 
 # Reactive NoException for Hookless
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.machinezoo.hookless/hookless-noexception)](https://search.maven.org/artifact/com.machinezoo.hookless/hookless-noexception)
+[![Maven Central](https://img.shields.io/maven-central/v/com.machinezoo.hookless/hookless-noexception)](https://central.sonatype.com/artifact/com.machinezoo.hookless/hookless-noexception)
 [![Build status](https://github.com/robertvazan/hookless-noexception/workflows/build/badge.svg)](https://github.com/robertvazan/hookless-noexception/actions/workflows/build.yml)
 [![Test coverage](https://codecov.io/gh/robertvazan/hookless-noexception/branch/master/graph/badge.svg)](https://codecov.io/gh/robertvazan/hookless-noexception)
 
